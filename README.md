@@ -65,6 +65,7 @@ In particular, you should provide all details of the differences between the dep
 - Different configuration files?
 - Separate git branch?
 
+- Pages location is:  https://michaelmagee.github.io/magee-MS1/
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ### Gitpod Reminders
