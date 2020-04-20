@@ -1,0 +1,26 @@
+
+
+referenced ideas sites : sites like awwwards. com or codrops
+
+Put more effort into how it looks really than you would think that you need to because that is what's going
+to get you past that first sort of first impression
+
+As promised, here are this sessions resources for you to look through:
+-  My demo website: https://ajgreaves.github.io/bootstrap-grid-demo/index.html
+-  Bootstrap 4 documentation: https://getbootstrap.com/docs/4.3/getting-started/introduction/
+-  The Bootstrap responsive breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints
+-  A great youtube video on the bootstrap 4 grid: https://www.youtube.com/watch?v=qmPmwdshCMw (edited) 
+
+Remember the toolkit prefix stuff 
+	    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    
+    USE and add to technologies used section: https://autoprefixer.github.io/
+    
+Remember hack to fix bootstrap containers: 
+row, container, container-fluid { padding: 0; margin: 0; }
+
+ 
+    
+    

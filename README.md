@@ -1,8 +1,9 @@
-# Mike Magee - Code INstitute Milestone1
+# Mike Magee - Code Institute Milestone1
 
-One or two paragraphs providing an overview of your project.
+My client is a two person Drone company - "Aerial Shots" (AS) from Salem Ma.  AS was an early drone technology adopter, flying over 4,000 commercial flights since 2012.  AS established a great word-of-mouth reputation but is losing work to unscrupulouse illegal operators trying to steal their business by using cheap unregistred drones and race-to-the-bottom rates.  AS needs a website that will help set them apart from their new uncredentialed competitors.  AS is strictly a B2B company. 
 
-Essentially, this part is your sales pitch.
+
+
  
 ## UX
  
@@ -12,6 +13,8 @@ In particular, as part of this section we recommend that you provide a list of U
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+Any general project related support documents are in /projectrelated
 
 ## Features
 
@@ -34,6 +37,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+- HTML Validation by freeformatter
+    - https://www.freeformatter.com/html-validator.html
+- CSS Validation by W3C
+    - https://jigsaw.w3.org/css-validator/
+- Development framework Visual STudio Code (mac) by Microsoft v1.44.1
 
 
 ## Testing
@@ -96,7 +104,7 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- Drone Fav Icon from https://icons8.com/icon/pack/photo-video/small
 
 ### Acknowledgements
 
