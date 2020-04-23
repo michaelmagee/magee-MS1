@@ -1,36 +1,84 @@
 # Mike Magee - Code Institute Milestone1
 
-My client is a two person Drone company - "Aerial Shots" (AS) from Salem Ma.  AS was an early drone technology adopter, flying over 4,000 commercial flights since 2012.  AS established a great word-of-mouth reputation but is losing work to unscrupulouse illegal operators trying to steal their business by using cheap unregistred drones and race-to-the-bottom rates.  AS needs a website that will help set them apart from their new uncredentialed competitors.  AS is strictly a B2B company. 
+My imaginary client is a two person Drone company - "Aerial Shots" (AS) from Salem Ma.  AS was an early drone technology adopter, flying over 4,000 commercial flights since 2012.  AS established a great word-of-mouth reputation but is losing work to unscrupulous illegal operators trying to steal their business by using cheap unregistered drones and race-to-the-bottom rates.  
 
+AS needs a website that will help set them apart from their new uncredentialed competitors and persuade them to weigh results, experience and reliabilty over price.
 
+AS is strictly a B2B company. 
 
- 
+The business goals of the website:
+- Establish brand awareness.
+- Establish credibility, reliability and experience.
+- Demonstrate quality work.
+<br>
+<br>
+***
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+A typical B2B client will approach the site looking for in (decreasing order of importance) the following information:
+- Quality visual work
+- Referrals
+- Experience
+- Accreditations
+- Safety and insurance record
+- Technical details
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+Client Stories - Ultimately the client will want to:
+- Navigate intuitively between various topic related page.  The goal is to move intuitively. 
+- Easily locate and review the information described above.  The goal is to quickly obtain satisfaction that AS is credible, experienced, accredited, etc.   
+- Browse galleries galleries and images.  The goal is to be sure that the content types, quality and variety will fit their requirements, 
+- Submit a request for contact and get a free teaser document in the process.  The goal is to establish a relationship in a timely fashion and move their evaluation closer to enough satisfaction about conducting business.  
 
+***
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+<br>
+<br>
 
-Any general project related support documents are in /projectrelated
-
+***
 ## Features
+My mentor suggested a simple feature focusing on the MMilestone submission deadline. 
+*   <span style="color:green">GREEN</span> are features that I definitely want to include in the MS1 submission. 
+*   <span style="color:orange">ORANGE</span> are stretch goals that I would like to include in the MS1 submission. 
+*   <span style="color:INDIANRED">RED</span> are features that I will not include in the MS1 submission, but would like to record them for the future. 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+### Page specific features
+
+#### <span style="color:green">Homepage </span>
+* <span style="color:green">Jumbotron welcome image - Catch the attention of the user and demonstrate quality</span>
+* <span style="color:green">Some intro and marketing text - OVERVIEW of credentials, certifications, experience </span>
+* <span style="color:orange">Embedded video introduction - A 30 second video of Client attempting to establish initial trust   This will eventually move to About and be slightly more comprehensive  </span>
+* <span style="color:orange">Referrals - Scrollable list of a dozen or so </span>
+
+#### <span style="color:green">Gallery </span>
+* <span style="color:green">Hero Image</span>
+* <span style="color:green">Introductory text</span>
+* <span style="color:green">Mixed gallery of various shots</span>
+
+#### <span style="color:green">Contact</span>
+* <span style="color:green">Hero Image</span>
+* <span style="color:green">Introductory text</span>
+* <span style="color:green">Basic 4 field information collection</span>
+* <span style="color:green">Checkbox to request promotional material</span>
+* <span style="color:INDIANRED">Calendar date selection</span>
+* <span style="color:INDIANRED">Map location selection</span>
+
+#### <span style="color:INDIANRED">About Page</span>  (Detailed credentials, certifications, experience, bio & photos ETC.. )
+#### <span style="color:INDIANRED">Classic Blog Page</span>
+#### <span style="color:INDIANRED">Commercial related Page</span> 
+#### <span style="color:INDIANRED">Pricing Page</span> 
+
+
+### Global features
+#### <span style="color:green">Header </span>
+* <span style="color:green">Horizontal menu links to any live pages </span>
+* <span style="color:orange">Mobile hamburger menu </span>
+
+ #### <span style="color:green">Footer </span>
+* <span style="color:green">Social links </span>
+* <span style="color:green">Copyright</span>
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+<br>
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
+***
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
@@ -41,10 +89,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - https://www.freeformatter.com/html-validator.html
 - CSS Validation by W3C
     - https://jigsaw.w3.org/css-validator/
-- Development framework Visual STudio Code (mac) by Microsoft v1.44.1
+- Development framework Visual Studio Code (mac) by Microsoft v1.44.1
 
-
-## Testing
+******
+## <span style="color:RED">Testing - TBD </span>
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -62,7 +110,7 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+* <span style="color:orange">If this section grows too long, you may want to split it off into a separate file and link to it from here.</span>
 
 ## Deployment
 
@@ -96,6 +144,8 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 
 
 ## Credits
+- Example MD content ideas reviewed from AJGreaves 
+- Organizational and planning support from Mentor Brian M.  
 
 ### Environment 
 - Code Institute student template for Gitpod was used
@@ -105,6 +155,9 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 
 ### Media
 - Drone Fav Icon from https://icons8.com/icon/pack/photo-video/small
+
+*Any general project related support documents are in /projectrelated*
+
 
 ### Acknowledgements
 
