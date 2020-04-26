@@ -30,12 +30,15 @@ Client Stories - Ultimately the client will want to:
 
 ***
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+![Wireframe1](projectrelated/wireframe1.png)
+
 <br>
 <br>
 
 ***
 ## Features
-My mentor suggested a simple feature focusing on the MMilestone submission deadline. 
+My mentor suggested a simple feature focusing on the Milestone submission deadline. 
 *   <span style="color:green">GREEN</span> are features that I definitely want to include in the MS1 submission. 
 *   <span style="color:orange">ORANGE</span> are stretch goals that I would like to include in the MS1 submission. 
 *   <span style="color:INDIANRED">RED</span> are features that I will not include in the MS1 submission, but would like to record them for the future. 
@@ -43,38 +46,40 @@ My mentor suggested a simple feature focusing on the MMilestone submission deadl
 ### Page specific features
 
 #### <span style="color:green">Homepage </span>
-* <span style="color:green">Jumbotron welcome image - Catch the attention of the user and demonstrate quality</span>
-* <span style="color:green">Some intro and marketing text - OVERVIEW of credentials, certifications, experience </span>
-* <span style="color:orange">Embedded video introduction - A 30 second video of Client attempting to establish initial trust   This will eventually move to About and be slightly more comprehensive  </span>
-* <span style="color:orange">Referrals - Scrollable list of a dozen or so </span>
+* <span style="color:green">(must)Jumbotron welcome section - Catch the visual attention of the user, demonstrate quality and provide intro and marketing text</span>
+* <span style="color:green">(must)Section - OVERVIEW of credentials, certifications, experience </span>
+* <span style="color:green">(must)Section - OVERVIEW of Safety and operational issues</span>
+* <span style="color:orange">(stretch)Embedded video introduction - A 30 second video of Client attempting to establish initial trust   This will eventually move to About and be slightly more comprehensive  </span>
+* <span style="color:orange">(stretch)Referrals - Scrollable list of a dozen or so </span>
+* <span style="color:orange">(stretch)Make page scrollable up to reveal more content </span>
 
 #### <span style="color:green">Gallery </span>
-* <span style="color:green">Hero Image</span>
-* <span style="color:green">Introductory text</span>
-* <span style="color:green">Mixed gallery of various shots</span>
+* <span style="color:green">(must)Hero Image</span>
+* <span style="color:green">(must)Introductory text</span>
+* <span style="color:green">(must)Mixed gallery of various shots/media</span>
 
 #### <span style="color:green">Contact</span>
-* <span style="color:green">Hero Image</span>
-* <span style="color:green">Introductory text</span>
-* <span style="color:green">Basic 4 field information collection</span>
-* <span style="color:green">Checkbox to request promotional material</span>
-* <span style="color:INDIANRED">Calendar date selection</span>
-* <span style="color:INDIANRED">Map location selection</span>
+* <span style="color:green">(must)Hero Image</span>
+* <span style="color:green">(must)Introductory text</span>
+* <span style="color:green">(must)Basic 4 field information collection</span>
+* <span style="color:green">(must)Checkbox to request promotional material</span>
+* <span style="color:INDIANRED">(later)Calendar date selection</span>
+* <span style="color:INDIANRED">(later)Map location selection</span>
 
-#### <span style="color:INDIANRED">About Page</span>  (Detailed credentials, certifications, experience, bio & photos ETC.. )
-#### <span style="color:INDIANRED">Classic Blog Page</span>
-#### <span style="color:INDIANRED">Commercial related Page</span> 
-#### <span style="color:INDIANRED">Pricing Page</span> 
+#### <span style="color:INDIANRED">(later)About Page</span>  (Detailed credentials, certifications, experience, bio & photos ETC.. )
+#### <span style="color:INDIANRED">(later)Classic Blog Page</span>
+#### <span style="color:INDIANRED">(later)Commercial related Page</span> 
+#### <span style="color:INDIANRED">(later)Pricing Page</span> 
 
 
 ### Global features
 #### <span style="color:green">Header </span>
-* <span style="color:green">Horizontal menu links to any live pages </span>
-* <span style="color:orange">Mobile hamburger menu </span>
+* <span style="color:green">(must)Horizontal menu links to any live pages </span>
+* <span style="color:orange">(stretch)Mobile hamburger menu </span>
 
  #### <span style="color:green">Footer </span>
-* <span style="color:green">Social links </span>
-* <span style="color:green">Copyright</span>
+* <span style="color:green">(must)Social links </span>
+* <span style="color:green">(must)Copyright</span>
  
 <br>
 
