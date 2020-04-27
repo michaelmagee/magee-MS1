@@ -2,3 +2,117 @@
 #  Stylesheet for Milestone One - Mike Magee
 */
 
+/* FONTS - grab these from fonts.google.com  get the import statement for this definition
+       Add weights as required.  In this case (100-700)  use: font-family: 'Rokkitt', serif;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700&display=swap');
+/*  ---------------------------------------------------------   Colors  */
+
+/*  ---------------------------------------------------------   Special paddings/margins/text  */
+
+h1, h2, h3, h4 {
+    margin: 0;
+    /*  Set all margins to 0  */
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*  ---------------------------------------------------------   Heading  */
+
+header {
+    margin: 0;
+    /*  set all margins to 0 for now */
+}
+
+.logo {
+    background: url("../aslogo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*  cover entire container */
+    min-height: 100px;
+    /* navbar row */
+    /* apply a mild transition "in-out" (slow) and use various tool kit definitions This was learned from Rosie */
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/*  ---------------------------------------------------------   menu items  */
+
+/*  Hack to eliminate white and control space in disply  */
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+    /* remove margin from this row to make it aligh  */
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    /* MAKE THE ENTIRE AREA CLICKABLE */
+    text-decoration: none;
+    /* remove the underline from text  */
+    color: #fff;
+    height: 120px;
+    /* match the parent menuitem for size */
+}
+
+/*  ---------------------------------------------------------   hover magic  */
+
+.hvr-sweep-to-bottom::before {
+    /* Good trick - targets developer class rendering to apply color before rendering */
+    background-color: rgba(0, 0, 0, .2);
+    height: 120px;
+}
+
+/*  ---------------------------------------------------------   Footer Related   */
+
+/*  ---------------------------------------------------------   Intro / callout section  */
+.callout{
+
+}
+/*  ---------------------------------------------------------   Experience / Creds section  */
+.expcreds {
+
+}
+
+/*  ---------------------------------------------------------   Safety / Operations section  */
+.safetyops{
+
+}
+
+/*  ---------------------------------------------------------   Key specific properties  */
+
+/*  ---------------------------------------------------------   Gallery page / section  */
+.gallery{
+
+}
+
+/*  ---------------------------------------------------------   Contact page / section  */
+.contact{
+
+}
+
+/*  ---------------------------------------------------------   Media queries  */
