@@ -151,6 +151,7 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 ## Credits
 - Example MD content ideas reviewed from AJGreaves 
 - Organizational and planning support from Mentor Brian M.  
+- Fixed Sticky header and footer from getbootstrap doc 
 
 ### Environment 
 - Code Institute student template for Gitpod was used
@@ -159,7 +160,7 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- Drone Fav Icon from https://icons8.com/icon/pack/photo-video/small
+- Drone Fav Icon info from https://icons8.com/icon/pack/photo-video/small
 
 *Any general project related support documents are in /projectrelated*
 
