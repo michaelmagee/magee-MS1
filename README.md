@@ -152,12 +152,14 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 - Example MD content ideas reviewed from AJGreaves 
 - Organizational and planning support from Mentor Brian M.  
 - Fixed Sticky header and footer from getbootstrap doc 
+- Attempted color inspiration from color.adobe.con
 
 ### Environment 
 - Code Institute student template for Gitpod was used
+- Locally, Visual Studio Code, periodically pushing to Githib/Gitpod
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All text and images are mine.
 
 ### Media
 - Drone Fav Icon info from https://icons8.com/icon/pack/photo-video/small
@@ -167,4 +169,5 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from examples from Code Institute that I played with as I was learning.  
+- I took several classes in parallel on Lynda to get different approaches
