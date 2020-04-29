@@ -1,13 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-</head>
-<body>
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-<h1> Hello this is the gallery</h1>
+    <link href="assets/media/images/icons8-drone-96.png" rel="icon" type="image/x-icon" />
+
+    <title>Aerial Shots</title>
+</head>
+
+<body>
+
+
+    <!-- article class=container -->
+    <!-- Semantic notation & Single page column-->
+
+    <!--  ==========     Navbar related  Icon, gallery and contact -->
+    <header>
+        <!-- Fixed navbar  reactive -->
+        <div class="container-fluid nav-container">
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/media/images/icons8-drone-96.png" alt="Aerial Shots" height="28">
+                </a>
+                <a class="navbar-brand nav-link " href="#">Aerial Shots</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+   <!--  ==========     Jumbotron   -->
+   <div class="container-fluid gallery-jumbo-container">
+    <div class="opaque-overlay-gallery">&nbsp;</div>
+    <div class="row">
+        <div class="col-12">
+            <section class="callout jumbotron text-center ">
+                <h1 class="jumbotron-header">Amazing Aerial Photography</h1>
+                <p class="lead">Aerial photography is not only our life’s work but also a labor of love
+                    for the art of capturing a perfect image or video and doing so using the most advanced
+                    technology around. With 25 years
+                    experience in the professional photography field, our team specializes in professional aerial
+                    photography
+                    in the New England region capturing unique perspectives on a landscape, building, event, real
+                    estate.
+                </p>
+            </section>
+        </div>
+        <!-- /callout -->
+    </div>
+</div>
+
+
+<footer class="footer">
+    <!--  container-fluid class - full-width container which spans the entire width of the viewport.   -->
+    <div id="footer-details" class="row">
+        <!--div class="col-sm-4"> </div -->
+        <div class="col-sm-12 justify-content-center">
+            <ul class="list-inline social-links">
+                <!-- list-inline-item REQUIRED for list-inline UL's -->
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span class="sr-only">Linkedin</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <!-- Script related as suggested by Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--/article>-->
 </body>
+
 </html>

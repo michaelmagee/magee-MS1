@@ -25,19 +25,19 @@
     <header>
         <!-- Fixed navbar  reactive -->
         <div class="container-fluid nav-container">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">
                     <img src="assets/media/images/icons8-drone-96.png" alt="Aerial Shots" height="28">
                 </a>
-                <a class="navbar-brand nav-link " href="#">(Style Me) Aerial Shots </a>
+                <a class="navbar-brand nav-link " href="#">Aerial Shots</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="gallery.html">Gallery</a>
@@ -86,7 +86,7 @@
                 <div class="row  ">   
                     <div class="col-12 col-md-12 ">
                         <div class="expcreds">  
-                            <p class="lead">Aerial Shots combines both years of professional photographic
+                            <p class="lead expcreds-text">Aerial Shots combines both years of professional photographic
                                 experience with a
                                 love of technology to
                                 bring clients ultra high resolution aerial photography for a wide range of services. Our
@@ -108,19 +108,19 @@
     </div> <!--   /expcreds-container -->
 
 
-        <!--  ==========     Safety and operational Container -->=
+        <!--  ==========     Safety and operational Container -->
         <div class="safetyops-container">
             <div class="opaque-overlay-safetyops">&nbsp;</div>
             <div class=" container-fluid  content-container">
                 <section class="safetyops">
-                    <div class="row" d-inline p-2>
+                    <div class="row d-inline">
                         <div class="col-12 ">
                             <h2 class="jumbotron-header">Safety, Planning, Operational Dilligence</h2>
                         </div>
                     </div>
-                    <div class="row d-inline p-2">
+                    <div class="row d-inline">
                         <div class="col-12 col-md-12 ">
-                            <div class="lead">
+                            <div class="lead ">
                                 <p >Aerial Shots takes safety very seriously during each of our sessions.
                                     We have full liability and equipment coverage with certificates of
                                     insurance. We also follow safety measures before and during each shoot that include:
@@ -153,12 +153,63 @@
     Note test date hack:
      -  Copyright &copy; <script>document.write(new Date().getFullYear(); </script> -  
 -->
+
+<!-- 
     <footer class="footer">
         <div class="container">
             <span class="text-left">Copyright &copy;
                 <script>document.write(new Date().getFullYear()); </script> Aerial Shots</span>
-        </div>
+            </div>
     </footer>
+-->
+
+<footer class="footer">
+    <!--  container-fluid class - full-width container which spans the entire width of the viewport.   -->
+    <div id="footer-details" class="row">
+        <!--div class="col-sm-4"> </div -->
+        <div class="col-sm-12 justify-content-center">
+            <ul class="list-inline social-links">
+                <!-- list-inline-item REQUIRED for list-inline UL's -->
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span class="sr-only">Linkedin</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
 
     <!-- Script related as suggested by Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -1,13 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-<h1> Hello this is the Contact</h1>
+    <link href="assets/media/images/icons8-drone-96.png" rel="icon" type="image/x-icon" />
+
+    <title>Aerial Shots</title>
+
+ 
+</head>
+
+<body id="contactformid">
+    <!--  ==========     Navbar related  Icon, gallery and contact -->
+    <header>
+        <!-- Fixed navbar  reactive -->
+        <div class="container-fluid nav-container">
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/media/images/icons8-drone-96.png" alt="Aerial Shots" height="28">
+                </a>
+                <a class="navbar-brand nav-link " href="#">Aerial Shots</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container contact-form">
+        <h1 class="contact-form">Aerial Shots Contact</h1>
+        <hr class="contact-hr">
+
+        <div class="row">
+
+            <div class="col-md-4 contact-text">
+                <address>222 Derby Street Salem MA 01907</address>
+                <p>Email:- info@aerialshotssalem.com</p>
+                <p>Phone:- 123.555.1212</p>
+                <p class=contact-text></p>
+                <br>
+                <br>
+                <p class=contact-text>
+                    We would LOVE to hear from you.  If you would like a copy of our paper "The top 10 things you need to know about hiring an Aerial photographer" Just click the checkbox below and we'll get it to you!
+                </p>
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label for="contactname">Name</label>
+                    <input id="contactname" type="text" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactemail">Email Address</label>
+                    <input id="contactemail" type="text" class="form-control" required=>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactemail">Message</label>
+                    <textarea class="form-control" rows="7"></textarea>
+                </div>
+
+                <div class="form-check contact-checkbox">
+                    <input class="form-check-input" type="checkbox" value="" id="cbrequest">
+                    <label class="form-check-label" for="cbrequest">
+                        YES! Send me that Document.
+                    </label>
+                </div>
+
+<!-- btn-primary btn-block -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block ">Send Contact Request</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 
+
+    
+-->
+
+    <footer class="footer">
+        <!--  container-fluid class - full-width container which spans the entire width of the viewport.   -->
+        <div id="footer-details" class="row">
+            <!--div class="col-sm-4"> </div -->
+            <div class="col-sm-12 justify-content-center">
+                <ul class="list-inline social-links">
+                    <!-- list-inline-item REQUIRED for list-inline UL's -->
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">Linkedin</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script related as suggested by Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--/article>-->
 </body>
+
 </html>
