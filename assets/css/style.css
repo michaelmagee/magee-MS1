@@ -146,11 +146,12 @@ header {
         padding-top: 32px;
     
     }
-    .jumbotron .lead { 
+    /*
+    .jumbotron .jumbotron-text { 
         margin: 10px 0;
         color: #ffffff;
-        font-size: 28px;
-    }
+        font-size: 26px;
+    }*/
 /*  ---------------------------------------------------------   Intro / Callout section  */
     .callout-container {
         height: 100vh;
@@ -171,7 +172,7 @@ header {
             height: 100%;
             top: 0;
             left: 0;
-            background-color: rgba(0, 0, 0, 0.3);   /* text seems ok  */
+            background-color: rgba(0, 0, 0, 0.4);   /* text seems ok  */
         } 
 
 
@@ -194,11 +195,20 @@ header {
         margin-bottom: 25px;  
     }
 
+    /*
+    .expcreds-header {
+        color: #red;
+        font-weight: bold;
+        margin-top: 10;
+        margin-bottom: 20px;
+        padding-top: 32px;
+    } 
+
     .expcreds-text{
     letter-spacing: 1px; 
-    font-weight: 500;
+    font-weight: 50boldß0;
     font-size: 28px;
-    }
+    }*/
 
     .opaque-overlay-expcreds{ 
         position: absolute;
@@ -206,7 +216,7 @@ header {
         height: 100%;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.4);
     } 
 
 /*  ---------------------------------------------------------   Safety / Operations section  */
@@ -226,7 +236,8 @@ header {
 
     .safetyops{
         text-align: center;
-        margin-bottom: 25px;  
+        margin-bottom: 22px; 
+        color: white; 
     }
 
     .safetyops-text{
@@ -238,9 +249,8 @@ header {
     .safetyops-ulist {
         letter-spacing: 1px; 
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         text-align: left;
-        color: red;
     }
 
     .opaque-overlay-safetyops{ 
@@ -249,7 +259,7 @@ header {
         height: 100%;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(169, 81, 81, 0.4);
     } 
 
 
