@@ -47,16 +47,17 @@
         </div>
     </header>
 
+    <!-- Basic contact form -->
     <div class="container contact-form">
-        <h1 class="contact-form">Aerial Shots Contact</h1>
+        <h2 class="contact-form contact-header">Aerial Shots Contact</h2>
         <hr class="contact-hr">
 
         <div class="row">
 
-            <div class="col-md-4 contact-text">
+            <div class="col-md-4 contact-info">
                 <address>222 Derby Street Salem MA 01907</address>
-                <p>Email:- info@aerialshotssalem.com</p>
-                <p>Phone:- 123.555.1212</p>
+                <p>Email: info@aerialshotssalem.com</p>
+                <p>Phone: 123.555.1212</p>
                 <p class=contact-text></p>
                 <br>
                 <br>
@@ -66,37 +67,36 @@
             </div>
 
             <div class="col-md-6">
+          
+                <form>
 
-                <div class="form-group">
-                    <label for="contactname">Name</label>
-                    <input id="contactname" type="text" class="form-control" required>
-                </div>
+                <!-- div class="form-group"> </div  -->
+                <label for="contactname">Name</label>
+                <input id="contactname" type="text" class="form-control contact-field" required>
 
-                <div class="form-group">
-                    <label for="contactemail">Email Address</label>
-                    <input id="contactemail" type="text" class="form-control" required=>
-                </div>
 
-                <div class="form-group">
-                    <label for="contactemail">Message</label>
-                    <textarea class="form-control" rows="7"></textarea>
-                </div>
+                <label for="contactemail">Email Address</label>
+                <input id="contactemail" type="email" class="form-control contact-field" required >
 
-                <div class="form-check contact-checkbox">
-                    <input class="form-check-input" type="checkbox" value="" id="cbrequest">
-                    <label class="form-check-label" for="cbrequest">
-                        YES! Send me that Document.
-                    </label>
-                </div>
 
-<!-- btn-primary btn-block -->
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block ">Send Contact Request</button>
-                </div>
+                <label for="contactemail">Message</label>
+                <textarea class="form-control contact-field" rows="5" required></textarea>
 
+
+            <div class="form-check contact-field">
+                <input class="form-check-input" type="checkbox" value="" id="cbrequest">
+                <label class="form-check-label" for="cbrequest">
+                    YES! Send me that Document.
+                </label>
             </div>
 
-        </div>
+
+                <button type="submit" class="btn btn-secondary">Send Contact Request</button>
+
+                </form>
+            </div>  <!-- column -->
+
+        </div>  <!-- row -->
 
     </div>
 
