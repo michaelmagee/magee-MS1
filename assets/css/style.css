@@ -292,78 +292,74 @@ header {
 
 /*  ---------------------------------------------------------   Gallery page / section  */
 
-.gallery-jumbo-container {
-    height: 100vh;
-    background: url("../media/images/commercial/mhead-harbor.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.gallery-photos {
+    clear;
+    /* Get below the header */
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    color: #525252;
+}
+
+/*  ---------------------------------------------------------   
+        Contact page / section  */
+
+body#galleryformid {
+    background: url("../media/images/commercial/mhead-harbor.jpg") no-repeat center center fixed;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    font-family: 'Lato', sans-serif;
 }
 
-.opaque-overlay-gallery {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    /* text seems ok  */
-}
-
-/*  ---------------------------------------------------------   Contact page / section  */
-
-
-.contact-form{
-    background:rgba(0,0,0, .7);
-    color:white;
+.contact-form {
+    background: rgba(0, 0, 0, .7);
+    color: white;
     margin-top: 70px;
     padding: 15px;
     box-shadow: 0px 0px 8px 2px grey;
 }
 
-.contact-header{
-text-align: center;
-margin-top: 20px;
-padding: 15px;
+.contact-header {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
 }
 
 /*  Selector allows one specific page body to be targeted  */
-body#contactformid{
-        background: url("../media/images/commercial/mhead-harbor.jpg") no-repeat center center fixed;
-        background-size: cover;
-        font-family: 'Lato', sans-serif;
+
+body#contactbodyid {
+    background: url("../media/images/mhead-harbor.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
-hr#contactformid{
-        background: whitesmoke;
+hr#contactbodyid {
+    background: whitesmoke;
 }
 
-.contact-text{
-    color:whitesmoke;
+.contact-text {
+    color: whitesmoke;
     margin-top: 5px;
-
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
 }
 
-
-.contact-info{
-    color:white;
+.contact-info {
+    color: white;
     margin-top: 5px;
-
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 18px;
 }
 
-.contact-field{
+.contact-field {
     margin-bottom: 20px;
 }
 
