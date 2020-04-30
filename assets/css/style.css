@@ -293,7 +293,7 @@ header {
 /*  ---------------------------------------------------------   Gallery page / section  */
 
 .gallery-photos {
-    clear;
+    /* clear; */ 
     /* Get below the header */
     line-height: 0;
     column-count: 2;
