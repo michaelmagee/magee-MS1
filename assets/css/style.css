@@ -16,7 +16,6 @@ body {
     ;
 }
 
-
 /*  ---------------------------------------------------------   Special paddings/margins/text  */
 
 html {
@@ -242,14 +241,15 @@ header {
 
 /*  ---------------------------------------------------------   
     Gallery page / section  */
+
 body#gallerybodyid {
-        background-size: cover;
-        font-family: 'Lato', sans-serif;
-        background-color: #9a9a9a;
-    }
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    background-color: #9a9a9a;
+}
 
 .gallery-photos {
-    /* clear; */ 
+    /* clear; */
     /* Get below the header ? */
     line-height: 0;
     column-count: 2;
@@ -267,30 +267,26 @@ body#gallerybodyid {
     text-align: center;
 }
 
-
-
 .gallery-header {
     color: white;
     margin: 70px 25px 25px 25px;
     padding: 15px;
-    text-align: center; 
+    text-align: center;
     box-shadow: 0px 0px 8px 2px grey;
     background-color: #676767;
-
 }
 
 .gallery-hr {
- margin: 15px;
- height: 4px;
- color: #525252;
- border: solid 1px #525252;
- background-color:  #525252;
+    margin: 15px;
+    height: 4px;
+    color: #525252;
+    border: solid 1px #525252;
+    background-color: #525252;
 }
 
 .galleryimages {
     padding: 10px;
     text-align: center;
-    
 }
 
 /*  ---------------------------------------------------------   
@@ -367,16 +363,16 @@ Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
 Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/ 
+@media (min-width: 1200px) { ... }*/
 
 @media (max-width: 768px) {
     #residentalphotos {
-        column-count:1;
+        column-count: 1;
     }
-
-    @media  screen and (max-width: 576px) {
-    #copyright{
-        display: none;
-   }
 }
 
+@media screen and (max-width: 576px) {
+    #contactcopyright {
+        display: none;
+    }
+}
