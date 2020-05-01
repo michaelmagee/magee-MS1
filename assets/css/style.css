@@ -117,6 +117,10 @@ header {
 
 /*  ---------------------------------------------------------   Jumbotron  / callout section  */
 
+.main-container{
+    margin-right: 0;
+    margin-left: 0;
+}
 /*  Jumbotron doc at:https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp    
         Also turorials on Lynda  */
 
@@ -375,4 +379,11 @@ Extra large devices (large desktops, 1200px and up)
     #contactcopyright {
         display: none;
     }
+    #gallerycopyright {
+        display: none;
+    }
+    #maincopyright {
+        display: none;
+    }
+    
 }

@@ -17,7 +17,7 @@
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid main-container">
 
         <!-- article class=container -->
         <!-- Semantic notation & Single page column-->
@@ -162,25 +162,18 @@
             </div>
         </div> <!--   /safetyops-container -->
 
-        <!--  ==========     Footer  related  
-    Note test date hack:
-     -  Copyright &copy; <script>document.write(new Date().getFullYear(); </script> -  
--->
+        <!--  ==========     Footer  related --> 
 
-        <!-- 
-    <footer class="footer">
-        <div class="container">
-            <span class="text-left">Copyright &copy;
-                <script>document.write(new Date().getFullYear()); </script> Aerial Shots</span>
-            </div>
-    </footer>
--->
 
         <footer class="footer">
             <!--  container-fluid class - full-width container which spans the entire width of the viewport.   -->
             <div id="footer-details" class="row">
-                <!--div class="col-sm-4"> </div -->
-                <div class="col-sm-12 justify-content-center">
+
+                <div class="col-sm-4" id="maincopyright">  <!-- id="copyright  -->
+                    <span class="text-white text-left">Copyright &copy; <script>document.write(new Date().getFullYear()); </script></span>
+                </div>
+
+                <div class="col-sm-8 justify-content-center">
                     <ul class="list-inline social-links">
                         <!-- list-inline-item REQUIRED for list-inline UL's -->
                         <li class="list-inline-item">
