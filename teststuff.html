@@ -15,6 +15,7 @@
 </head>
 
 <body id="teststuffbodyid">
+<div class="container-fluid">
 
 
     <!-- article class=container -->
@@ -68,24 +69,6 @@
          <div class="row rowtest2"> 
             <div class="col-12">
                 <img src="assets/media/images/commercial/com-1.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-2.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-3.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-4.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-5.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-6.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-7.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-8.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-9.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-10.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-12.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-13.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-14.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-15.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-16.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-17.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-18.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-19.jpg" alt="image">
-                <img src="assets/media/images/commercial/com-20.jpg" alt="image">
             </div>
          </div> 
      </div>
@@ -94,8 +77,13 @@
 <footer class="footer">
     <!--  container-fluid class - full-width container which spans the entire width of the viewport.   -->
     <div id="footer-details" class="row">
-        <!--div class="col-sm-4"> </div -->
-        <div class="col-sm-12 justify-content-center">
+
+        <div class="col-sm-4" id="copyright"> 
+            <span class="text-white text-left">Copyright &copy; <script>document.write(new Date().getFullYear()); </script></span>
+        </div>
+
+
+        <div class="col-sm-8 justify-content-center">
             <ul class="list-inline social-links">
                 <!-- list-inline-item REQUIRED for list-inline UL's -->
                 <li class="list-inline-item">
@@ -150,7 +138,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <!--/article>-->
+    
+    </div>
 </body>
 
 </html>
