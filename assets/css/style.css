@@ -161,11 +161,6 @@ header {
     background: #e84610;
 }
 
-#footer-details {
-    /* padding: 1px; */
-    /* single - top/botom/left/right  */
-}
-
 /*  ---------------------------------------------------------   Jumbotron  / callout section  */
 
 /*  Jumbotron doc at:https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp    
@@ -290,27 +285,66 @@ header {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/*  ---------------------------------------------------------   Gallery page / section  */
+/*  ---------------------------------------------------------   
+    Gallery page / section  */
+    body#xgallerybodyid {
+        background-size: cover;
+        font-family: 'Lato', sans-serif;
+        background-color: #9a9a9a;
+    }
 
 .gallery-photos {
     /* clear; */ 
-    /* Get below the header */
+    /* Get below the header ? */
     line-height: 0;
     column-count: 2;
     column-gap: 0;
 }
 
-.gallery-header {
-    text-align: center;
-    margin-top: 40px;
+.gallery-text {
+    background-color: #676767;
+    color: whitesmoke;
+    margin: 5px 40px 10px 40px;
     padding: 15px;
-    color: #525252;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
 }
+
+
+
+.gallery-header {
+    color: white;
+    margin: 70px 25px 25px 25px;
+    padding: 15px;
+    text-align: center; 
+    box-shadow: 0px 0px 8px 2px grey;
+    background-color: #676767;
+
+}
+
+.gallery-hr {
+ margin: 15px;
+ height: 4px;
+ color: #525252;
+ border: solid 1px #525252;
+ background-color:  #525252;
+}
+
+.galleryimages {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+
 
 /*  ---------------------------------------------------------   
         Contact page / section  */
 
-body#galleryformid {
+body#contactbodyid {
     background: url("../media/images/commercial/mhead-harbor.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Lato', sans-serif;
@@ -327,16 +361,11 @@ body#galleryformid {
 .contact-header {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 40px;
     padding: 15px;
 }
 
 /*  Selector allows one specific page body to be targeted  */
-
-body#contactbodyid {
-    background: url("../media/images/mhead-harbor.jpg") no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Lato', sans-serif;
-}
 
 hr#contactbodyid {
     background: whitesmoke;
@@ -393,3 +422,4 @@ Extra large devices (large desktops, 1200px and up)
         column-count:1;
     }
 }
+
