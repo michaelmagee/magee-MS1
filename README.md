@@ -14,13 +14,19 @@ The business goals of the website:
 <br>
 ***
 ## UX
-A typical B2B client will approach the site looking for in (decreasing order of importance) the following information:
-- Quality visual work
-- Referrals
+A typical B2B client will approach the site looking for the following information:
+
+- Quality visual work 
+    - Provided on the home page and gallery
 - Experience
+    - Provided (overview) on the homepage section Experience, Credentials and Performance section
 - Accreditations
+    - Provided (overview) in the  Credentials and Performance section
 - Safety and insurance record
-- Technical details
+    - Provided by the Safety, Planning, Operational Diligence
+- Ability to contact us 
+    -  provided by the contact page
+
 
 Client Stories - Ultimately the client will want to:
 - Navigate intuitively between various topic related page.  The goal is to move intuitively. 
@@ -29,7 +35,7 @@ Client Stories - Ultimately the client will want to:
 - Submit a request for contact and get a free teaser document in the process.  The goal is to establish a relationship in a timely fashion and move their evaluation closer to enough satisfaction about conducting business.  
 
 ***
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Wireframes
 
 - [Main ->](projectrelated/magee-ms1-main-wf.png)
 
@@ -42,7 +48,8 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ***
 ## Features
-My mentor suggested a simple feature focusing on the Milestone submission deadline. 
+My mentor suggested a simple feature focusing on the Milestone submission deadline.   These colors may or may not show up depending on the viewer you use.
+
 *   <span style="color:green">GREEN</span> are features that I definitely want to include in the MS1 submission. 
 *   <span style="color:orange">ORANGE</span> are stretch goals that I would like to include in the MS1 submission. 
 *   <span style="color:INDIANRED">RED</span> are features that I will not include in the MS1 submission, but would like to record them for the future. 
@@ -79,7 +86,7 @@ My mentor suggested a simple feature focusing on the Milestone submission deadli
 ### Global features
 #### <span style="color:green">Header </span>
 * <span style="color:green">(must)Horizontal menu links to any live pages </span>
-* <span style="color:orange">(stretch)Mobile hamburger menu </span>
+* <span style="color:green">(must)Mobile hamburger menu </span>
 
  #### <span style="color:green">Footer </span>
 * <span style="color:green">(must)Social links </span>
@@ -108,11 +115,10 @@ There should be no visible difference in behavior between browsers.  I have test
 - Firefox Version 75.0 (64-bit)
 - Safari Version 13.0.5 (15608.5.11)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All tests described below have worked successfully across all browsers.
+Responsiveness checks have been run by using the Chrome developers's tools as well as manually resizing the windows  
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+NOTE  that the common footer across the pages are sticky.  Also each social media icon has target="_blank" so expect that each will open a new tab when tested/clicked that will point to the current page, NOT to the social media page.  
 
 1. Home:
     1. Navigate to the "Home" page by initial landing, from the menu item or by the icon and :Aerial Shots" label on the nav bar
@@ -122,7 +128,7 @@ For any scenarios that have not been automated, test the user stories manually a
         - Safety, planning and diligence.  As with the previous section, it is intended as an overview.  Eventually, there should be a page dedicated to it.  
     3. The form should be sizable without any loss of content.
     4. Confirm that the copyright text in the footer gets hidden at small sizes, leaving just the social media.  The hamburger should appear and everything should be in a single column for presentation.
-    5.  Problems - I'm having sizing issues with a left and right margin, and controlling the text when things get smaller.
+
 
 2. Contact:
     1. Go to the "Contact" page from the menu item
@@ -133,28 +139,29 @@ For any scenarios that have not been automated, test the user stories manually a
     5. The form should be sizable without any loss of content.
     6. Confirm that the copyright text in the footer gets hidden at small sizes, leaving just the social media.  The hamburger should appear and everything should be in a single column for presentation.
 
- ==================================================
+
 
 3. Gallery:
     1. Go to the "gallery" page from the menu item
     2. This is a very basic display of some work.  
     3. I found that the landscape nature and size of shots did not lend themselves to tiling.  
-    4. I would search for some plugin to use instead of a basic html view and I would have a menus that broke the work and pages down with more granularity.  I found a few of these in the last day, but I was not able to generate the appropriate thumbnails to go with the images.
+    4. I could search for some common mechanism to use instead of a basic html view.  My mentor suggested some, and I found a few, but there was not time to prudently incorporate it and still address the pre-submission checklist.
     5. The form should be sizable without any loss of content.
     6. Confirm that the copyright text in the footer gets hidden at small sizes, leaving just the social media.  The hamburger should appear and everything should be in a single column for presentation.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
- ==================================================
 
 
 ## Deployment
 
-This sample site is set up to use git pages based on the current code version in Git.    
+This sample site is set up to use git pages based on the current code version in Github.  Github pages is enabled by going to the settings tab of the github project and enabling github pages.    Github Pages uses the current version of the codeline to serve the application up and is always accessible.  
 
 - Pages location is:  https://michaelmagee.github.io/magee-MS1/
 
-This sample site can easily run locally in the VSCode IDE by using the GoLive feature.
 
+This sample site can easily edited and run locally in the VSCode IDE by using the GoLive feature, which is how this code was developed.  To do this:
+- From a terminal in the appropriate location clone a copy of the code locally: 
+    - run: `git clone https://github.com/michaelmagee/magee-MS1.git`
+    - then run `git remote rm origin` to remove the remote references to github.
+- Then from VSCode, open a new window and open the newly cloned directory.   The Go Live button is on the bottom right.
 ### Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
@@ -169,7 +176,7 @@ Another blue button should appear to click: *Open Browser*.
 
 
 ## Credits
-- Example MD content ideas reviewed from AJGreaves 
+- Example readme.MD content ideas reviewed from AJGreaves and Haley Schafer 
 - Organizational and planning support from Mentor Brian M.  
 - Fixed Sticky header and footer from getbootstrap doc 
 - Attempted color inspiration from color.adobe.com
