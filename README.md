@@ -137,19 +137,15 @@ For any scenarios that have not been automated, test the user stories manually a
 
 3. Gallery:
     1. Go to the "gallery" page from the menu item
-    2. This is a very basic 
-
-
-
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-        - All 3 input fields are required.  The  checkbox is not  
-    4. There is no back end or JS so there will be no success indication
+    2. This is a very basic display of some work.  
+    3. I found that the landscape nature and size of shots did not lend themselves to tiling.  
+    4. I would search for some plugin to use instead of a basic html view and I would have a menus that broke the work and pages down with more granularity.  I found a few of these in the last day, but I was not able to generate the appropriate thumbnails to go with the images.
     5. The form should be sizable without any loss of content.
     6. Confirm that the copyright text in the footer gets hidden at small sizes, leaving just the social media.  The hamburger should appear and everything should be in a single column for presentation.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
  ==================================================
- 
+
 
 ## Deployment
 
