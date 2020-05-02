@@ -36,6 +36,7 @@ h1, h2, h3, h4 {
 .uppercase {
     text-transform: uppercase;
 }
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -52,6 +53,12 @@ h1, h2, h3, h4 {
     margin-right: auto;
     margin-left: auto;
 }
+
+.lead {
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
 /*  ---------------------------------------------------------   Heading  */
 
 header {
@@ -72,6 +79,7 @@ header {
     font-size: 14px;
     padding: 0;
     color: whitesmoke;
+    font-family: 'Lato', sans-serif;
 }
 
 /* enclose everything in the outer container */
@@ -132,10 +140,11 @@ header {
 
 /*  ---------------------------------------------------------   Jumbotron  / callout section  */
 
-.main-container{
+.main-container {
     margin-right: 0;
     margin-left: 0;
 }
+
 /*  Jumbotron doc at:https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp    
         Also turorials on Lynda  */
 
@@ -245,7 +254,7 @@ header {
 .safetyops-ulist {
     letter-spacing: 1px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.5em;
     text-align: left;
 }
 
@@ -264,18 +273,16 @@ header {
 .gallerybodyid {
     background-size: cover;
     font-family: 'Lato', sans-serif;
-    /* background-color: #9a9a9a;  */  
+    /* background-color: #9a9a9a;  */
 }
 
 .gallery-photos {
-
     line-height: 0;
     column-count: 2;
     column-gap: 0;
 }
 
 .gallery-text {
-   
     color: #525252;
     margin: 5px 40px 10px 40px;
     padding: 15px;
@@ -394,5 +401,22 @@ Extra large devices (large desktops, 1200px and up)
     #maincopyright {
         display: none;
     }
-    
+    .lead {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    .jumbotron-header {
+        color: #ffffff;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-top: 12px;
+        font-size: 1.5rem;
+    }
+    .safetyops-ulist {
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 1em;
+        text-align: left;
+    }
 }
