@@ -31,7 +31,11 @@ Client Stories - Ultimately the client will want to:
 ***
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+- [Main ->](projectrelated/magee-ms1-main-wf.png)
+
 - [Contact ->](projectrelated/magee-ms1-contact-wf.png)
+
+- [Gallery ->](projectrelated/magee-ms1-gallery-wf.png)
 
 <br>
 <br>
@@ -97,7 +101,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Development framework Visual Studio Code (mac) by Microsoft v1.44.1
 
 ******
-## <span style="color:RED">Testing - TBD </span>
+## <span style="color:GREEN">Testing</span>
+
+There should be no visible difference in behavior between browsers.  I have tested with:  
+- Chrome Version 81.0.4044.122
+- Firefox Version 75.0 (64-bit)
+- Safari Version 13.0.5 (15608.5.11)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -105,55 +114,69 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
+1. Home:
+    1. Navigate to the "Home" page by initial landing, from the menu item or by the icon and :Aerial Shots" label on the nav bar
+    2. Each of the 3 sections is intended to be very visual, attempting to let the images impress the user.  The text is kept somewhat non-structured, simply white and sparse.  The 3 sections are :
+        - Main / Callout 
+        - Experience and credentials is intended as an overview.  Eventually, there should be a page dedicated to it. 
+        - Safety, planning and diligence.  As with the previous section, it is intended as an overview.  Eventually, there should be a page dedicated to it.  
+    3. The form should be sizable without any loss of content.
+    4. Confirm that the copyright text in the footer gets hidden at small sizes, leaving just the social media.  The hamburger should appear and everything should be in a single column for presentation.
+    5.  Problems - I'm having sizing issues with a left and right margin, and controlling the text when things get smaller.
+
+2. Contact:
+    1. Go to the "Contact" page from the menu item
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+        - All 3 input fields are required.  The  checkbox is not  
+    4. There is no back end or JS so there will be no success indication
+    5. The form should be sizable without any loss of content.
+    6. Confirm that the copyright text in the footer gets hidden at small sizes, leaving just the social media.  The hamburger should appear and everything should be in a single column for presentation.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+ ==================================================
+
+3. Gallery:
+    1. Go to the "gallery" page from the menu item
+    2. This is a very basic 
+
+
+
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+        - All 3 input fields are required.  The  checkbox is not  
+    4. There is no back end or JS so there will be no success indication
+    5. The form should be sizable without any loss of content.
+    6. Confirm that the copyright text in the footer gets hidden at small sizes, leaving just the social media.  The hamburger should appear and everything should be in a single column for presentation.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-* <span style="color:orange">If this section grows too long, you may want to split it off into a separate file and link to it from here.</span>
+ ==================================================
+ 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+This sample site is set up to use git pages based on the current code version in Git.    
 
 - Pages location is:  https://michaelmagee.github.io/magee-MS1/
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This sample site can easily run locally in the VSCode IDE by using the GoLive feature.
 
 ### Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+`git pull`   To be sure that the code is current
+`python3 -m http.server`  
 
 A blue button should appear to click: *Make Public*,
 
 Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
 
 ## Credits
 - Example MD content ideas reviewed from AJGreaves 
 - Organizational and planning support from Mentor Brian M.  
 - Fixed Sticky header and footer from getbootstrap doc 
-- Attempted color inspiration from color.adobe.con
+- Attempted color inspiration from color.adobe.com
 
 ### Environment 
 - Code Institute student template for Gitpod was used
