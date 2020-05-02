@@ -36,7 +36,22 @@ h1, h2, h3, h4 {
 .uppercase {
     text-transform: uppercase;
 }
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*  ---------------------------------------------------------   Heading  */
 
 header {
@@ -246,38 +261,37 @@ header {
 /*  ---------------------------------------------------------   
     Gallery page / section  */
 
-body#gallerybodyid {
+.gallerybodyid {
     background-size: cover;
     font-family: 'Lato', sans-serif;
-    background-color: #9a9a9a;
+    /* background-color: #9a9a9a;  */  
 }
 
 .gallery-photos {
-    /* clear; */
-    /* Get below the header ? */
+
     line-height: 0;
     column-count: 2;
     column-gap: 0;
 }
 
 .gallery-text {
-    background-color: #676767;
-    color: whitesmoke;
+   
+    color: #525252;
     margin: 5px 40px 10px 40px;
     padding: 15px;
     letter-spacing: 1px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.5em;
     text-align: center;
 }
 
 .gallery-header {
-    color: white;
+    color: #525252;
+    font-weight: 600;
     margin: 70px 25px 25px 25px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0px 0px 8px 2px grey;
-    background-color: #676767;
+    font-size: 3em;
 }
 
 .gallery-hr {
